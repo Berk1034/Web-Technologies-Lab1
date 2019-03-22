@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: #2c2c54;
+  font-weight: bold;
+}
+header{
+  height: 5vh;
+}
+header .container{
+  background-color: #251f23;
+}
+main{
+  height: 80vh;
+}
+footer{
+  position: relative;
+  height: 1vh;
+}
+img {
+  float: left;
+  display: inline-block;
+  height:34px;
+  width:34px;
+}
+.main-menu{
+  overflow: none;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 10px 0px;
+  justify-content:flex-end;
+}
+.main-menu li a{
+  text-decoration: none;
+  color: #05f83f;
+  padding: 10px 20px;
+}
+.main-menu li a:hover{
+  color: red;
+  background-color: #718093;
+}
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fdcb6e;
+  text-align: center;
+  border-radius: 40px;
+}
+.box h1{
+  color: #0984e3;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.box input[type = "text"], .box input[type = "password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #d35400;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  color: #B53471;
+  font-weight: bold;
+}
+::-webkit-input-placeholder{
+  color: #B53471;
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #a29bfe;
+}
+.box input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #a29bfe;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #ecf0f1;
+  background: #a29bfe;
+  font-weight: bold;
+}
+.box input[type = "submit"]:hover{
+  background: #6c5ce7;
+}
+
+footer .copyrights p{
+  text-decoration: none;
+  position: relative;
+  color: #dcdde1;
+  text-align: center;
+  font-style: italic;
+  margin-top: 85px;
+}

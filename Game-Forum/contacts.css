@@ -1,0 +1,124 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  font-weight: bold;
+  background: #2c2c54;
+}
+header{
+  height: 5vh;
+}
+header .container{
+  background-color: #251f23;
+}
+main{
+  height: 80vh;
+}
+footer{
+  position: relative;
+  height: 1vh;
+}
+img {
+  float: left;
+  display: inline-block;
+  height:34px;
+  width:34px;
+}
+.main-menu{
+  overflow: none;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 10px 0px;
+  justify-content:flex-end;
+}
+.main-menu li a{
+  text-decoration: none;
+  color: #05f83f;
+  padding: 10px 20px;
+}
+.main-menu li a:hover{
+  color: red;
+  background-color: #718093;
+}
+.content h2 {
+  color: #e67e22;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.connect-article h3{
+  color: #e64a00;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+.block-contact-form{
+  text-align: center;
+}
+#contact-form-id {
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+  display: inline-block;
+  text-align: left;
+}
+form label p{
+  padding: 10px 10px 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #8e44ad;
+}
+form label input,textarea{
+  border-radius: 20px;
+  background-color: #ecf0f1;
+  color: blue;
+  font-weight: bold;
+}
+.contact-text {
+  min-width: 400px;
+  min-height: 170px;
+}
+.article-contact-us {
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+  border-right: 1px solid yellow;
+  color: #f1c40f;
+  font-weight: italic;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+}
+.submit {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #a29bfe;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #ecf0f1;
+  background: #a29bfe;
+  font-weight: bold;
+}
+.submit:hover{
+  background: #6c5ce7;
+}
+.contact-text {
+  min-width: 400px;
+  min-height: 170px;
+}
+footer .copyrights p{
+  text-decoration: none;
+  color: #dcdde1;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  margin-top:60px;
+}
